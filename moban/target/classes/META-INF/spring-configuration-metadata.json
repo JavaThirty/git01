@@ -1,0 +1,142 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "cn.bdqn.hzp.pojo.Person",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "user",
+      "type": "cn.bdqn.hzp.pojo.User",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<cn.bdqn.hzp.pojo.Pet>>",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "cn.bdqn.hzp.pojo.Pet",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "person.user-name",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.Person"
+    },
+    {
+      "name": "user.address",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.birthday",
+      "type": "java.util.Date",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.created-by",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.creation-date",
+      "type": "java.util.Date",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.gender",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.id",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.id-pic-path",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.modify-by",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.modify-date",
+      "type": "java.util.Date",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.phone",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.user-code",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.user-name",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.user-password",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.user-role",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    },
+    {
+      "name": "user.work-pic-path",
+      "type": "java.lang.String",
+      "sourceType": "cn.bdqn.hzp.pojo.User"
+    }
+  ],
+  "hints": []
+}
